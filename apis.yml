@@ -1,8 +1,26 @@
 aid: stan
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stan.png
 name: Stan
-description: 'Stan is a company surfaced as a portfolio company of forerunner-ventures, general-catalyst,
-  norwest-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: commerce.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Stan (stan.store) is an all-in-one creator storefront and link-in-bio
+  commerce platform that lets creators sell digital products, online courses, coaching
+  calls, memberships, and webinars directly from a single mobile-first store link.
+  The platform bundles checkout and payments, email marketing, an AutoDM tool, analytics,
+  and integrations with third-party tools such as Zoom and Google Meet. Backed by
+  Forerunner Ventures, General Catalyst, and Norwest Venture Partners, Stan targets
+  the creator economy. As of this enrichment pass Stan publishes no public developer
+  API, webhook specification, or SDKs — the surface is a consumer product plus a help
+  center; this profile captures the identity and a probed domain-security profile.'
 url: https://raw.githubusercontent.com/api-evangelist/stan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Commerce
+- Creator Economy
+- Link in Bio
+- Digital Products
+- Ecommerce
+- Content Monetization
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +51,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.stan.store
+- type: HelpCenter
+  url: https://help.stan.store
+- type: DomainSecurity
+  url: security/stan-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
