@@ -43,7 +43,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Commerce
@@ -69,6 +69,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://stan.store/blog/
+  type: Blog
+- url: https://stan.store/blog/feed/
+  type: BlogRSS
 - type: Website
   url: https://www.stan.store
 - type: HelpCenter
